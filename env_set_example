@@ -1,0 +1,20 @@
+# 环境配置模板
+# 请命名此文件为 .env 并填入实际配置值
+# 在根目录创建文件夹config后把完善好的文件丢进去
+
+# 机器人基本信息（必填，前去开放平台获取）
+BOT_ID=你的机器人QQ号
+APP_ID=你的APP_ID
+APP_SECRET=你的APP_SECRET
+TOKEN=你的TOKEN
+
+# 开发者QQ（用于调试，必填）
+DEVELOPER_QQ=你的QQ号
+
+# 日志配置
+LOG_LEVEL=INFO
+LOG_FILE=../logs/bot.log
+
+# 部署相关（若是服务器，可选）
+# CALLBACK_URL=https://你的域名/callback
+# PORT=8080
