@@ -1,0 +1,4 @@
+# 本项目依赖
+qq-botpy>=1.2.1
+python-dotenv>=1.0.0
+loguru>=0.7.0
